@@ -15,8 +15,7 @@ This project is a **Sentiment Analysis API** built using **Django** and integrat
 project/
 ├── api/
 │   ├── ML_Model/
-│   │   ├── sentiment_model.pkl      # Trained Random Forest model
-│   │   ├── vectorizer.pkl           # Pre-trained TF-IDF Vectorizer
+│   │   ├── runner.ipynb     # Trained Random Forest model
 │   ├── views.py                     # Django views and API
 │   ├── urls.py                      # Django URL routing
 ├── ml_model.py                      # Python script for training and testing
@@ -26,7 +25,7 @@ project/
 
 ## How to start project
 
-- Navigate to project directory
+- Firstly, run the **runner.py** file in ML_Model to generate **sentiment_model.pkl** and **vectorizer.pkl** file
 
 - Run 
 
