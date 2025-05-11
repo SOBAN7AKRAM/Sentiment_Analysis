@@ -54,7 +54,7 @@ def generate_otp():
 
 def send_otp_email(email, otp):
     subject = "OTP Code for Hire-Hive"
-    message = f"Your OTP code is {otp} for Hire-Hive email verification. It is valid for 5 minutes."
+    message = f"Your OTP code is {otp} for Sentiment AI email verification. It is valid for 5 minutes."
     from_email = settings.EMAIL_HOST_USER
     recipient_list = [email]
     send_mail(subject, message, from_email, recipient_list)

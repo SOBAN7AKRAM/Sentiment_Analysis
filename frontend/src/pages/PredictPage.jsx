@@ -76,6 +76,7 @@ export default function PredictPage() {
               ? 'text-gray-600'
               : 'text-blue-600'
           }`}
+          
         >
           Sentiment Result: {result}
         </p>

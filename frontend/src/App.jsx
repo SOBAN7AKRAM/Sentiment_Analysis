@@ -10,7 +10,7 @@ const BASE_URL = 'http://localhost:8000/'
 
 
 // Simple authentication check
-const isAuthenticated = () => !!localStorage.getItem("accessToken");
+const isAuthenticated = () => !!localStorage.getItem("access");
 
 const ProtectedRoute = ({ children }) => {
   return isAuthenticated() ? children : <Navigate to="/login" />;
